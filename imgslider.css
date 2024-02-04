@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(11, 5, 5);
+    color: white;
+}
+
+#maindiv {
+    height: 400px;
+    width: 70%;
+    margin: 100px 180px;
+    border: 1px solid white;
+    background-color: rgb(31, 57, 80);
+    background-image: url("https://picsum.photos/200/300");
+    box-shadow: 1px 1px 10px 5px white;
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url("ashley.jpg");
+        background-size: cover;
+    }
+
+    25%{
+        background-image: url("img1.jpg");
+        background-size: cover;
+    }
+
+    50%{
+        background-image: url("img2.jpg");
+        background-size: cover;
+    }
+
+    75%{
+        background-image: url("img3.jpg"); 
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url("img4.jpg"); 
+        background-size: cover;
+    }
+}
